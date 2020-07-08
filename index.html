@@ -140,7 +140,7 @@
                 } else {
                     $("#result").text(moment.unix(data.joindate.substring(0, data.joindate.length - 3)))
                 }
-                $("#body").attr('src', "https://crafatar.com/renders/body/" + player)
+                $("#body").attr('src', "https://crafatar.com/renders/body/" + data.uuid)
                 $("#resultuser").text(player)
 
                 var target = $("#resultpage");
